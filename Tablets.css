@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background-color: #f0f1ff;
+  }
+  /*  */
+  section {
+    max-width: 768px;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 5px;
+  }
+  /*  */
+  .News-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 2px;
+    white-space: nowrap;
+  }
+  /*  */
+  .News-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  /*  */
+  .News-header a {
+    background: #0d47a1;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 8px;
+    transition: background 0.3s;
+    margin-left: 670px;
+  }
+  /*  */
+  .News-header a:hover {
+    background: #08306b;
+  }
+  /*  */
+  .Container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10px;
+    width: 10%;
+    margin-right: 25px;
+  }
+  /*  */
+  .Container img {
+    object-fit: cover;
+  }
+  /*  */
+  h4 {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 12px;
+    color: #f89893;
+    line-height: 1;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+    width: 270.927px;
+    color: #736e6a;
+    line-height: 1.7;
+  }
+  ul {
+    list-style: none;
+    display: inline-block;
+  }
+  .news-card {
+    background-color: white;
+    width: 290.927px;
+    margin: 0 0 2px 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+  }
+  /*  */
+  .news-card:hover {
+    transform: translateY(-5px);
+  }
+  /*  */
+  .news-card img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
